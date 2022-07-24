@@ -22,7 +22,7 @@
       institution: Politecnico di Milano, Milano, Italy
       year: 2020-2023
       description:
-        - Mathematical Engineering, track in Computational Science and Computational Learning
+        - Mathematical Engineering, track in <b>Computational Science and Computational Learning</b>
         - GPA 30.0/30.0
         - Courses in Real and Functional Analysis, Advanced PDEs, Numerical Analysis for PDEs, C++ Programming, Fluid-Dynamics.
     - title: Bachelor of Science
@@ -60,10 +60,10 @@
   contents:
     - year: 2021
       items: 
-        - Winner of the Basic Sciences EPFL Excellence Scolarship
+        - Winner of the <b>Basic Sciences EPFL Excellence Scolarship</b>
     - year: 2018
       items: 
-        - Winner of the Best Freshmen Scholarship by Politecnico di Milano
+        - Winner of the <b>Best Freshmen Scholarship</b> by Politecnico di Milano
     - year: 2018
       items: 
         - <em> Azione Giovani Prize </em> by Lions Club Spoleto for the high school final mark

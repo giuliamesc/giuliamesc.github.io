@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi everyone, and welcome to my personal website!
 <br>
-I am Giulia, Master Student in Mathematical Engineering (track in <a href='https://www.epfl.ch/education/master/programs/computational-science-and-engineering/'> Computational Science and Engineering</a>) and I am attending a Double Degree Program between EPFL and Politecnico di Milano.
+I am Giulia, Master Student in Mathematical Engineering (track in <a href='https://www.epfl.ch/education/master/programs/computational-science-and-engineering/'> Computational Science and Engineering</a>) and I am attending a <b>Double Degree</b> Program between EPFL and Politecnico di Milano.
 <br>
 <br>
 In my study path, I have explored several fields; in my Bachelor in <a href='https://www.mate.polimi.it/im/?settore=triennale#ann'> Ingegneria Matematica </a> at Politecnico di Milano, I took courses ranging from theoretical Mathematics to Engineering Subjects, while in my MSc path I am mainly deepening into <b> Mathematical Analysis</b>, <b> Numerical Methods</b> and <b> Machine Learning</b>.
