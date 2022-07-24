@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2020-01-01
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Elected as responsible for Administration in the Board of the Mathematical Engineering Association (<a href="https://www.aim-mate.it/it/">AIM</a>).
