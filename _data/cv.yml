@@ -2,96 +2,71 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Giulia Mescolini
     - name: Date of Birth
-      value: 14th March 1879
+      value: 21st March 1999
     - name: Languages
-      value: English, German
+      value: Italian, English, French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science
+      institution: EPFL, Lausanne, Switzerland
+      year: 2022-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Computational Science and Engineering
+        - GPA 5.6/6.0
+        - Courses in Optimal Transport, Numerical Methods, Stochastic Simulation, Machine Learning, Artificial Neural Networks.
+    - title: Master of Science
+      institution: Politecnico di Milano, Milano, Italy
+      year: 2020-2023
       description:
-        - Description 1.
-        - Description 2.
+        - Mathematical Engineering, track in Computational Science and Computational Learning
+        - GPA 30.0/30.0
+        - Courses in Real and Functional Analysis, Advanced PDEs, Numerical Analysis for PDEs, C++ Programming, Fluid-dynamics.
+    - title: Bachelor of Science
+      institution: Politecnico di Milano, Milano, Italy
+      year: 2017-2020
+      description:
+        - Ingegneria Matematica, final grade 110/110 <em> cum laude </em>.
+        - GPA 29.9/30.0
+        - Courses in Mathematical Analysis, Physics, Probability, Statistical Inference, Introduction to PDEs.  
+    - title: High School Diploma
+      institution: Liceo Classico Pontano-Sansi, Spoleto, Italy
+      year: 2012-2017
+      description:
+        - High School focused on the humanities (Latin, Ancient Greek, Philosophy, Literature, History of Art), final grade 100/100 <em> cum laude </em>.
+        - Took part in national and regional competitions of Italian language, Philosophy, Latin, Mathematics.     
 
-- title: Experience
+- title: Extra-curricular Activities
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: <a href= "https://www.asp-poli.it/">Alta Scuola Politecnica</a>
+      institution: Politecnico di Milano, Milano, Italy
+      year: 2020-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Joined the excellence multidisciplinary path organized by Politecnico di Milano and Politecnico di Torino.
+        - Courses in Dynamics of Innovation, Design Methods and Processes, Complex Decision-Making and Policy Design, The Intangible Value of Places.
+
+    - title: Responsible for Academic Relations
+      institution: <a href= "https://www.aim-mate.it/it/">AIM</a> (Mathematical Engineering Association)
+      year: 2020-2021
       description:
-        - Description 1.
-        - Description 2.
+        - As responsible for Academic relations, I organized events and conferences in collaboration with the Mathematics Department of Politecnico di Milano.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Winner of the Basic Sciences EPFL Excellence Scolarship
+    - year: 2018
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - Winner of the Best Freshmen Scholarship by Politecnico di Milano
+    - year: 2018
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - <em> Azione Giovani Prize </em> by Lions Club Spoleto for the high school final mark
+    - year: 2017
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Leader of the winner team of the <em> Latine Ludere </em> cup (competition about Latin grammar and literature) 
