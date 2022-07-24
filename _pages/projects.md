@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Here you can find a list of my completed projects. Enjoy your reading!
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [EPFL,PoliMi]
 horizontal: false
 ---
 
@@ -14,7 +14,7 @@ horizontal: false
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
+  <h2 class="category"> <h2 style="color:purple">{{ category }}</h2></h2>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
