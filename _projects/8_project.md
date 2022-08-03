@@ -15,6 +15,7 @@ In this project, we implemented a Tic-Tac-Toe player learning with Reinforcement
 <br>
 The work was carried out jointly with Anna Peruso.
 
+<a href="/assets/pdf/report_ann.pdf"><button style="font-size:24px;color:purple">Report <i class="fa fa-file-pdf"></i></button></a>
 <a href="https://github.com/giuliamesc/tic_tac_toe"><button style="font-size:24px;color:purple">GitHub Repository <i class="fa fa-folder"></i></button></a>
 
 

@@ -14,5 +14,6 @@ The project involved the analytical study of the Maxwell Eigenvalue Problem in a
 <br>
 The work was carried out jointly with Thomas Rimbot.
 
+<a href="/assets/pdf/report_n4f.pdf"><button style="font-size:24px;color:purple">Report <i class="fa fa-file-pdf"></i></button></a>
 <a href="https://github.com/giuliamesc/maxwell_eigenvalues"><button style="font-size:24px;color:purple">GitHub Repository <i class="fa fa-folder"></i></button></a>
 

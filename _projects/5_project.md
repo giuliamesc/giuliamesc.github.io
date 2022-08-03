@@ -13,4 +13,5 @@ In this project, I implemented two numerical solutions to the problem of diffusi
 <br>
 The Monte-Carlo solution obtained was then improved with variance reduction and splitting techniques.
 
+<a href="/assets/pdf/report_ss.pdf"><button style="font-size:24px;color:purple">Report <i class="fa fa-file-pdf"></i></button></a>
 <a href="https://github.com/giuliamesc/pollutant_transport"><button style="font-size:24px;color:purple">GitHub Repository <i class="fa fa-folder"></i></button></a>

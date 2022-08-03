@@ -15,4 +15,5 @@ We joined the <a href="https://www.aicrowd.com/challenges/epfl-machine-learning-
 <br>
 The work was carried out jointly with Matteo Calafà and Paolo Motta.
 
+<a href="/assets/pdf/report_ml1.pdf"><button style="font-size:24px;color:purple">Report <i class="fa fa-file-pdf"></i></button></a>
 <a href="https://github.com/teocala/ml-project-1-ml_mpg_project1"><button style="font-size:24px;color:purple">GitHub Repository <i class="fa fa-folder"></i></button></a>

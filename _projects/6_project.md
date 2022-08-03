@@ -14,4 +14,5 @@ Project in collaboration with the EPFL <a href="https://www.epfl.ch/labs/lastro/
 <br>
 The work was carried out jointly with Matteo Calafà and Paolo Motta.
 
+<a href="/assets/pdf/report_ml2.pdf"><button style="font-size:24px;color:purple">Report <i class="fa fa-file-pdf"></i></button></a>
 <a href="https://github.com/giuliamesc/reionisation_ML"><button style="font-size:24px;color:purple">GitHub Repository <i class="fa fa-folder"></i></button></a>
