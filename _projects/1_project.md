@@ -14,4 +14,4 @@ For my Semester Project, I worked at the <a href='https://www.epfl.ch/labs/amcv/
 <br>
 I developed in detail two examples sketched in the paper <a href='https://arxiv.org/abs/1904.04795'><em> Finite-Time Singularity Formation for C<sup>1,α</sup> Solutions to the Incompressible Euler Equations on R<sup>3</sup></em></a> by T.Elgindi (2021), and studied the strategy adopted in the paper to build a self-similar solution with blow-up at a finite time.
 
-<a href="https://github.com/giuliamesc/semester_project"><button style="font-size:24px;color:purple">GitHub Repository <i class="fa fa-folder"></i></button></a>
+<a href="../assets/pdf/report_sp.pdf"><button style="font-size:24px;color:purple">Report <i class="fa fa-file-pdf"></i></button></a>
