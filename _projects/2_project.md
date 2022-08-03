@@ -17,5 +17,5 @@ The project involved the implementation of a PINN in stationary and non-stationa
 <br>
 The work was carried out jointly with Luca Sosta.
 
-<a href="https://github.com/giuliamesc/PINNs_Fluid_Dynamics"><button style="font-size:24px;color:purple">Report <i class="fa fa-file-pdf"></i></button></a>
+<a href="/assets/pdf/report_pinns.pdf"><button style="font-size:24px;color:purple">Report <i class="fa fa-file-pdf"></i></button></a>
 <a href="https://github.com/giuliamesc/PINNs_Fluid_Dynamics"><button style="font-size:24px;color:purple">GitHub Repository <i class="fa fa-folder"></i></button></a>
