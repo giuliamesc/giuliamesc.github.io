@@ -3,7 +3,7 @@ layout: page
 title: Statistical Analysis of Occupational Data
 description: Modelli e Metodi dell'Inferenza Statistica course project
 img: assets/img/annap.jpg
-importance: 3
+importance: 4
 category: PoliMi
 ---
 
