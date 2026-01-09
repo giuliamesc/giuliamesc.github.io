@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
-description: Here you can find a list of my completed projects. Enjoy your reading!
+title: Coding Projects
+permalink: /codingprojects/
+description: Here you can find a list of my completed coding projects. Enjoy your reading!
 nav: true
 nav_order: 2
 display_categories: [EPFL,PoliMi]
