@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>MA B2 473</p>
     <p>EPFL, Station 8</p>
-    <p>Station 8 CH-1015 Lausanne</p>
+    <p>CH-1015 Lausanne</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
