@@ -6,7 +6,7 @@ subtitle: PhD Student at EPFL
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: IMG_0653.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>MA B2 473</p>
