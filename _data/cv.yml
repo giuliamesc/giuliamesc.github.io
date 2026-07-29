@@ -9,8 +9,8 @@ cv:
     Education:
       - institution: École polytechnique fédérale de Lausanne
         location: Lausanne, Switzerland
-        url: https://www.epfl.ch/
-        area: Mathematics
+        url: 
+        area: Mathematical Analysis
         studyType: PhD
         start_date: 2023
         end_date: 2027
@@ -19,7 +19,7 @@ cv:
 
       - institution: Politecnico di Milano
         location: Milan, Italy
-        url: https://www.polimi.it/
+        url:
         area: Computational Science and Engineering
         studyType: MSc
         start_date: 2020
@@ -32,7 +32,7 @@ cv:
           
       - institution: Politecnico di Milano
         location: Milan, Italy
-        url: https://www.polimi.it/
+        url:
         area: Mathematical Enginerring
         studyType: BSc
         start_date: 2017
