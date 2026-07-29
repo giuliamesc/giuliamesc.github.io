@@ -8,7 +8,7 @@ cv:
   sections:
     Education:
       - institution: École polytechnique fédérale de Lausanne
-        location: Lausanne, Switzerland
+        location: Lausanne, CH
         url: 
         area: Mathematical Analysis
         studyType: PhD
@@ -18,7 +18,7 @@ cv:
           - Supervised by Maria Colombo (EPFL) and Dallas Albritton (University of Wisconsin, Madison).
 
       - institution: Politecnico di Milano
-        location: Milan, Italy
+        location: Milan, IT
         url:
         area: Computational Science and Engineering
         studyType: MSc
@@ -31,7 +31,7 @@ cv:
 
           
       - institution: Politecnico di Milano
-        location: Milan, Italy
+        location: Milan, IT
         url:
         area: Mathematical Enginerring
         studyType: BSc

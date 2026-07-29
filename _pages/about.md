@@ -27,4 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-The website is under construction. See you soon! :)
+I am a PhD student in the AMCV group at EPFL, supervised by Prof. Maria Colombo (EPFL) and Prof. Dallas Albritton (University of Wisconsin–Madison).
+
+Previously, I completed an MSc in Computational Science and Engineering through a double-degree programme between EPFL and Politecnico di Milano, as well as a BSc in Mathematical Engineering.
+
+My research lies in the field of partial differential equations, with a particular focus on instability and non-uniqueness phenomena arising in fluid dynamics models.
