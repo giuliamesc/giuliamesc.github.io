@@ -92,7 +92,7 @@ design:
       space_left: 0cm
     highlights:
       bullet:
-      nested_bullet: •
+      nested_bullet:
       space_left: 0.15cm
       space_above: 0cm
       space_between_items: 0cm
