@@ -28,6 +28,7 @@ on:
       - "!docs/FAQ.md"
       - "!docs/INSTALL.md"
       - "!README.md"
+      - "_sass/**"
   pull_request:
     branches:
       - master
