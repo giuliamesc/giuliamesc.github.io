@@ -206,3 +206,7 @@ html[data-theme-setting="light"] {
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
 }
+
+.post-title {
+  color: var(--global-theme-color);
+}
