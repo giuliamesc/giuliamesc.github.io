@@ -210,3 +210,8 @@ html[data-theme-setting="light"] {
 .post-title {
   color: var(--global-theme-color);
 }
+
+/* CV entries use list items for layout; hide their markers without affecting highlights. */
+.cv ul.list-group > li.list-group-item {
+  list-style: none;
+}
