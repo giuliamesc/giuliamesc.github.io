@@ -215,3 +215,15 @@ html[data-theme-setting="light"] {
 .cv ul.list-group > li.list-group-item {
   list-style: none;
 }
+
+/* Use an editorial display face throughout the site. */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+}
