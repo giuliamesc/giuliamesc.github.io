@@ -216,8 +216,12 @@ html[data-theme-setting="light"] {
   list-style: none;
 }
 
-/* Use an editorial display face throughout the site. */
-body,
+/* Pair a readable text face with an editorial display face. */
+body {
+  font-family: "Source Serif 4", Georgia, serif;
+  line-height: 1.65;
+}
+
 h1,
 h2,
 h3,
