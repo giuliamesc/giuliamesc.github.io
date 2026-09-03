@@ -211,6 +211,11 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
+/* Keep publication years subtle but readable against the light background. */
+html:not([data-theme="dark"]) .publications h2.bibliography {
+  color: var(--global-text-color-light);
+}
+
 /* CV entries use list items for layout; hide their markers without affecting highlights. */
 .cv ul.list-group > li.list-group-item {
   list-style: none;
