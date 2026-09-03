@@ -211,8 +211,8 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
-/* Keep publication years subtle but readable against the light background. */
-html:not([data-theme="dark"]) .publications h2.bibliography {
+/* Keep publication years subtle but readable in both color modes. */
+:root .publications h2.bibliography {
   color: var(--global-text-color-light);
 }
 
