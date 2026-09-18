@@ -61,9 +61,24 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
+// Customized sites may keep reviewed theme overrides (see docs/BOUNDARIES.md).
+// The upgrade audit separately checks these acknowledgements against the gems.
+const acknowledgedOverrides = new Set(
+  exists(".al-folio-overrides.yml") ? [...read(".al-folio-overrides.yml").matchAll(/^ {2}([^\s:][^:\n]*):\s*$/gm)].map((match) => match[1]) : []
+);
+const filesWithin = (relPath) =>
+  fs.statSync(path.join(root, relPath)).isDirectory()
+    ? fs.readdirSync(path.join(root, relPath)).flatMap((entry) => filesWithin(path.join(relPath, entry)))
+    : [relPath];
+
 for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
-  if (exists(forbiddenPath)) {
-    failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
+  if (!exists(forbiddenPath)) continue;
+  for (const localPath of filesWithin(forbiddenPath)) {
+    if (!acknowledgedOverrides.has(localPath)) {
+      failures.push(
+        `Starter must not own core component path \`${localPath}\`; move ownership to the corresponding gem or acknowledge an intentional site override.`
+      );
+    }
   }
 }
 

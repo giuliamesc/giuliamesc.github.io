@@ -1,0 +1,41 @@
+.site-preferences {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.site-preferences #light-toggle {
+  transform: none;
+}
+
+.language-control:not([hidden]) {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--global-text-color);
+}
+
+#language-select {
+  min-height: 2.5rem;
+  padding: 0.25rem;
+  border: 0;
+  border-radius: 0.25rem;
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+  font: inherit;
+  cursor: pointer;
+}
+
+#language-select:hover {
+  color: var(--global-theme-color);
+}
+
+#language-select:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 2px;
+}
+
+#navbar span[data-i18n],
+footer [data-i18n] {
+  color: inherit;
+}
