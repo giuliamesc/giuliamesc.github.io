@@ -29,8 +29,8 @@ en:
   back_to_top: Back to top
   table_of_contents: Table of contents
   download_cv: Download CV (PDF)
-  not_found: Page not found
-  not_found_description: Looks like there has been a mistake. Nothing exists here.
+  not_found: Page not found :(
+  not_found_description: Looks like there has been a mistake. Nothing exists here. :(
   redirect_notice: You will be redirected to the main page within 3 seconds. If not redirected, please go back to the
   home_page: home page
   # These exact labels are matched only within CV components and publication buttons.
@@ -68,7 +68,7 @@ it:
   filter_publications: Digita per filtrare
   filter_label: Filtra le pubblicazioni
   publications_description: Qui puoi trovare i miei articoli accettati per la pubblicazione e i miei preprint.
-  outreach_description: Durante il dottorato, ho avuto l’opportunità e il piacere di condurre diverse attività di divulgazione rivolte a studentesse e studenti dai 10 ai 18 anni, in francese e in italiano. Alcune sono state organizzate nell’ambito di iniziative pensate per sostenere e ispirare ragazze e giovani donne interessate alle discipline STEM, una causa che mi sta particolarmente a cuore. Se state cercando persone per animare un evento o un incontro in una scuola superiore nella Svizzera romanda, non esitate a contattarmi!
+  outreach_description: Durante il dottorato, ho avuto l’opportunità e il piacere di organizzare diverse attività di divulgazione rivolte a studentesse e studenti dai 10 ai 18 anni, in francese, inglese e italiano. Alcune sono state organizzate nell’ambito di iniziative pensate per sostenere e ispirare ragazze e giovani donne interessate alle discipline STEM, una causa che mi sta particolarmente a cuore. Se state cercando persone per animare un evento o un incontro in una scuola superiore nella Svizzera romanda, non esitate a contattarmi!
   outreach_activities: Attività di divulgazione
   forthcoming: In programma.
   bio_subtitle: Dottoranda all’EPFL
@@ -84,7 +84,7 @@ it:
   back_to_top: Torna in cima
   table_of_contents: Indice
   download_cv: Scarica il CV (PDF)
-  not_found: Pagina non trovata
+  not_found: Pagina non trovata :(
   not_found_description: Sembra che ci sia un errore. Questa pagina non esiste! :(
   redirect_notice: Verrai reindirizzato alla pagina principale entro 3 secondi. In caso contrario, torna alla
   home_page: pagina iniziale
@@ -122,7 +122,7 @@ fr:
   filter_publications: Saisissez du texte pour filtrer
   filter_label: Filtrer les publications
   publications_description: Vous trouverez ici mes articles acceptés pour publication et mes prépublications.
-  outreach_description: Pendant mon doctorat, j’ai eu l’occasion et le plaisir d’animer plusieurs activités de vulgarisation destinées à des élèves de 10 à 18 ans, en français et en italien. Certaines ont été organisées dans le cadre d’initiatives visant à soutenir et à inspirer les filles et les jeunes femmes intéressées par les STEM, une cause qui me tient particulièrement à cœur. Si vous recherchez des intervenantes ou intervenants pour un événement ou une rencontre dans un établissement secondaire en Suisse romande, n’hésitez pas à me contacter !
+  outreach_description: Pendant mon doctorat, j’ai eu l’occasion et le plaisir d’animer plusieurs activités de vulgarisation destinées à des élèves de 10 à 18 ans, en français, en anglais et en italien. Certaines ont été organisées dans le cadre d’initiatives visant à soutenir et à inspirer les filles et les jeunes femmes intéressées par les STEM, une cause qui me tient particulièrement à cœur. Si vous recherchez des intervenantes pour un événement ou une rencontre dans un établissement secondaire en Suisse romande, n’hésitez pas à me contacter !
   outreach_activities: Activités de vulgarisation
   forthcoming: À venir.
   bio_subtitle: Doctorante à l’EPFL
@@ -138,7 +138,7 @@ fr:
   back_to_top: Retour en haut
   table_of_contents: Table des matières
   download_cv: Télécharger le CV (PDF)
-  not_found: Page introuvable
+  not_found: Page introuvable :(
   not_found_description: Il semble qu’une erreur se soit produite. Cette page n’existe pas! :(
   redirect_notice: Vous serez redirigé vers la page principale dans 3 secondes. Sinon, retournez à la
   home_page: page d’accueil
