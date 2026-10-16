@@ -68,9 +68,13 @@
     });
 
     document.querySelectorAll("time[data-localized-date]").forEach((element) => {
-      const date = new Date(`${element.dateTime}T12:00:00`);
+      const [year, month, day = 1] = element.dateTime.split("-").map(Number);
+      const date = new Date(Date.UTC(year, month - 1, day, 12));
       if (!Number.isNaN(date.getTime())) {
-        element.textContent = new Intl.DateTimeFormat(locale, { year: "numeric", month: "long", day: "numeric" }).format(date);
+        const options = { year: "numeric", month: "long", timeZone: "UTC" };
+        if (element.dataset.datePrecision !== "month") options.day = "numeric";
+        const dateLocale = locale === "en" ? "en-GB" : locale;
+        element.textContent = new Intl.DateTimeFormat(dateLocale, options).format(date);
       }
     });
     // Keep article titles and the CV download link intact.

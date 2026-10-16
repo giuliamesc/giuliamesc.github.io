@@ -73,15 +73,23 @@ test("outreach page and navigation translate into Italian and French", async ({ 
 
   await expect(page.locator(".post-title")).toHaveText("outreach");
   await expect(page.locator(".post-description")).toContainText("students aged 10–18");
+  await expect(page.locator('[data-i18n="outreach_activities"]')).toHaveText("list of activities");
+  await expect(page.locator('time[datetime="2026-11"]')).toHaveText("November 2026");
+  await expect(page.locator('time[datetime="2025-12"]')).toHaveText("December 2025");
   await selector.selectOption("it");
   await expect(outreachNav).toHaveText("divulgazione");
   await expect(page.locator(".post-title")).toHaveText("divulgazione");
   await expect(page.locator(".post-description")).toContainText("studentesse e studenti dai 10 ai 18 anni");
+  await expect(page.locator('[data-i18n="outreach_activities"]')).toHaveText("elenco delle attività");
+  await expect(page.locator('time[datetime="2025-12"]')).toHaveText("dicembre 2025");
+  await expect(page.locator('time[datetime="2025-10"]')).toHaveText("ottobre 2025");
   await selector.selectOption("fr");
   await expect(outreachNav).toHaveText("vulgarisation");
   await expect(page.locator(".post-title")).toHaveText("vulgarisation");
   await expect(page.locator(".post-description")).toContainText("élèves de 10 à 18 ans");
-  await expect(page.locator('[data-i18n="forthcoming"]')).toHaveText("À venir.");
+  await expect(page.locator('[data-i18n="outreach_activities"]')).toHaveText("liste des activités");
+  await expect(page.locator('time[datetime="2024-03"]')).toHaveText("mars 2024");
+  await expect(page.locator('time[datetime="2023-09"]')).toHaveText("septembre 2023");
 });
 
 test("invalid or unavailable browser storage does not break translation", async ({ page }) => {
