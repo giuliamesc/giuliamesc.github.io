@@ -10,7 +10,7 @@ nav_order: 6
 
 <h2 data-i18n="outreach_activities">list of activities</h2>
 
-- **<time datetime="2026-11" data-localized-date data-date-precision="month">November 2026</time> · Geneva, CH** — _Élargis tes horizons_: workshop “Les maths font la différence !” (French).
+- **<time datetime="2026-11" data-localized-date data-date-precision="month">November 2026</time> · Genève, CH** — _Élargis tes horizons_: workshop “Les maths font la différence !” (French).
 - **<time datetime="2026-03" data-localized-date data-date-precision="month">March 2026</time> · EPFL, Lausanne, CH** — Meeting between women PhD candidates and Bachelor’s/Master’s students.
 - **<time datetime="2025-12" data-localized-date data-date-precision="month">December 2025</time> · Gymnase Cantonal de Nyon, Nyon, CH** — _Cours Mathilda_: “Nœuds et turbulence” (French).
 - **<time datetime="2025-10" data-localized-date data-date-precision="month">October 2025</time> · Lycée-Collège de la Planta, Sion, CH** — _TecDays_: “Des curiosités mathématiques” (French).
