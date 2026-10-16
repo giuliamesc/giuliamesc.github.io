@@ -65,6 +65,25 @@ test("language and theme controls work together and CV links survive translation
   expect(positions.right).toBeLessThanOrEqual(page.viewportSize().width);
 });
 
+test("outreach page and navigation translate into Italian and French", async ({ page }) => {
+  await page.goto("/al-folio/outreach/");
+  await openMenu(page);
+  const selector = page.locator("#language-select");
+  const outreachNav = page.locator('#navbar a[href$="/outreach/"] [data-i18n="outreach"]');
+
+  await expect(page.locator(".post-title")).toHaveText("outreach");
+  await expect(page.locator(".post-description")).toContainText("students aged 10–18");
+  await selector.selectOption("it");
+  await expect(outreachNav).toHaveText("divulgazione");
+  await expect(page.locator(".post-title")).toHaveText("divulgazione");
+  await expect(page.locator(".post-description")).toContainText("studentesse e studenti dai 10 ai 18 anni");
+  await selector.selectOption("fr");
+  await expect(outreachNav).toHaveText("vulgarisation");
+  await expect(page.locator(".post-title")).toHaveText("vulgarisation");
+  await expect(page.locator(".post-description")).toContainText("élèves de 10 à 18 ans");
+  await expect(page.locator('[data-i18n="forthcoming"]')).toHaveText("À venir.");
+});
+
 test("invalid or unavailable browser storage does not break translation", async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem("site-language", "unsupported"));
   await page.goto("/al-folio/");

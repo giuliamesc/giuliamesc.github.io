@@ -19,7 +19,7 @@
 
   if (pageKey === "about") {
     mark(".post-header .desc", "bio_subtitle");
-  } else if (["publications", "news", "not_found"].includes(pageKey)) {
+  } else if (["publications", "outreach", "news", "not_found"].includes(pageKey)) {
     mark(".post-header .post-title", pageKey);
     mark(".post-header .post-description", `${pageKey}_description`);
   }

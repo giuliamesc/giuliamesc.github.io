@@ -3,6 +3,7 @@ en:
   about: about
   publications: publications
   cv: CV
+  outreach: outreach
   news: news
   current: (current)
   toggle_navigation: Toggle navigation
@@ -12,6 +13,9 @@ en:
   filter_publications: Type to filter
   filter_label: Filter publications
   publications_description: You can find here my accepted papers and pre-prints.
+  outreach_description: During my PhD, I have had the opportunity and pleasure of leading several outreach activities for students aged 10–18, in French and Italian. Some were organised as part of initiatives designed to support and inspire girls and young women interested in STEM—a cause to which I am particularly committed. If you are looking for facilitators for an event or a school visit in French-speaking Switzerland, please feel free to get in touch!
+  outreach_activities: Outreach activities
+  forthcoming: Forthcoming.
   bio_subtitle: PhD Student at EPFL
   bio_intro: I am a PhD student in the AMCV group at EPFL, supervised by Prof. Maria Colombo (EPFL) and Prof. Dallas Albritton (University of Wisconsin–Madison).
   bio_education: Previously, I completed an MSc in Computational Science and Engineering through a double-degree programme between EPFL and Politecnico di Milano, as well as a BSc in Mathematical Engineering.
@@ -54,6 +58,7 @@ it:
   about: chi sono
   publications: pubblicazioni
   cv: CV
+  outreach: divulgazione
   news: notizie
   current: (pagina corrente)
   toggle_navigation: Apri o chiudi il menu
@@ -63,6 +68,9 @@ it:
   filter_publications: Digita per filtrare
   filter_label: Filtra le pubblicazioni
   publications_description: Qui puoi trovare i miei articoli accettati per la pubblicazione e i miei preprint.
+  outreach_description: Durante il dottorato, ho avuto l’opportunità e il piacere di condurre diverse attività di divulgazione rivolte a studentesse e studenti dai 10 ai 18 anni, in francese e in italiano. Alcune sono state organizzate nell’ambito di iniziative pensate per sostenere e ispirare ragazze e giovani donne interessate alle discipline STEM, una causa che mi sta particolarmente a cuore. Se state cercando persone per animare un evento o un incontro in una scuola superiore nella Svizzera romanda, non esitate a contattarmi!
+  outreach_activities: Attività di divulgazione
+  forthcoming: In programma.
   bio_subtitle: Dottoranda all’EPFL
   bio_intro: Sto svolgendo il mio dottorato nel gruppo AMCV all’EPFL, sotto la supervisione della Prof.ssa Maria Colombo (EPFL) e del Prof. Dallas Albritton (University of Wisconsin–Madison).
   bio_education: Ho conseguito una laurea magistrale in Computational Science and Engineering nell’ambito di un programma di doppia laurea tra l’EPFL e il Politecnico di Milano, e una laurea triennale in Ingegneria Matematica.
@@ -77,7 +85,7 @@ it:
   table_of_contents: Indice
   download_cv: Scarica il CV (PDF)
   not_found: Pagina non trovata
-  not_found_description: Sembra che ci sia un errore. Questa pagina non esiste! :( 
+  not_found_description: Sembra che ci sia un errore. Questa pagina non esiste! :(
   redirect_notice: Verrai reindirizzato alla pagina principale entro 3 secondi. In caso contrario, torna alla
   home_page: pagina iniziale
   component_labels:
@@ -104,6 +112,7 @@ fr:
   about: à propos
   publications: publications
   cv: CV
+  outreach: vulgarisation
   news: actualités
   current: (page actuelle)
   toggle_navigation: Ouvrir ou fermer le menu
@@ -113,6 +122,9 @@ fr:
   filter_publications: Saisissez du texte pour filtrer
   filter_label: Filtrer les publications
   publications_description: Vous trouverez ici mes articles acceptés pour publication et mes prépublications.
+  outreach_description: Pendant mon doctorat, j’ai eu l’occasion et le plaisir d’animer plusieurs activités de vulgarisation destinées à des élèves de 10 à 18 ans, en français et en italien. Certaines ont été organisées dans le cadre d’initiatives visant à soutenir et à inspirer les filles et les jeunes femmes intéressées par les STEM, une cause qui me tient particulièrement à cœur. Si vous recherchez des intervenantes ou intervenants pour un événement ou une rencontre dans un établissement secondaire en Suisse romande, n’hésitez pas à me contacter !
+  outreach_activities: Activités de vulgarisation
+  forthcoming: À venir.
   bio_subtitle: Doctorante à l’EPFL
   bio_intro: Je suis doctorante dans le groupe AMCV à l’EPFL, sous la supervision de la professeure Maria Colombo (EPFL) et du professeur Dallas Albritton (University of Wisconsin–Madison).
   bio_education: J’ai obtenu un master en Sciences et Ingénierie Computationnelles dans le cadre d’un programme de double diplôme entre l’EPFL et le Politecnico di Milano, ainsi qu’un bachelor en Ingénierie Mathématique.
