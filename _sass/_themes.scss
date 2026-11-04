@@ -221,7 +221,7 @@ html[data-theme-setting="light"] {
   list-style: none;
 }
 
-/* Pair clear body text with a handwritten name and headings. */
+/* Use Lato throughout the site, with a handwritten name only on the home page. */
 body {
   font-family: "Lato", "Segoe UI", sans-serif;
   font-size: 1.125rem;
@@ -247,21 +247,19 @@ h4,
 h5,
 h6,
 .navbar-brand.title {
-  font-family: "Caveat", "Segoe Print", cursive;
-  font-weight: 400;
+  font-family: "Lato", "Segoe UI", sans-serif;
 }
 
-.post-title {
+/* The home page is identified by the header's existing language-page marker. */
+header[data-language-page="about"] + [role="main"] .post-header > .post-title {
+  font-family: "Caveat", "Segoe Print", cursive;
   font-size: clamp(2.75rem, 5vw, 3.5rem);
+  font-weight: 400;
   line-height: 1.15;
 }
 
-.navbar-brand.title {
-  font-size: 1.75rem;
-}
-
 /* The theme adds weight utilities to the name; keep both parts regular. */
-.post-title .font-weight-bold,
+header[data-language-page="about"] + [role="main"] .post-header > .post-title .font-weight-bold,
 .navbar-brand.title,
 .navbar-brand.title .font-weight-bold {
   font-weight: 400 !important;
