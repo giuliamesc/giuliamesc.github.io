@@ -221,47 +221,7 @@ html[data-theme-setting="light"] {
   list-style: none;
 }
 
-/* Use Source Serif 4 for text and headings, with a handwritten home-page name. */
-body {
-  font-family: "Source Serif 4", Georgia, serif;
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 1.65;
-}
-
-/* Keep the address in Lato instead of inheriting the body font. */
-:root .profile .more-info {
-  font-family: "Lato", "Segoe UI", sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-
-  p {
-    display: block;
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.navbar,
-.navbar-brand.title {
-  font-family: "Source Serif 4", Georgia, serif;
-}
-
-/* The home page is identified by the header's existing language-page marker. */
-header[data-language-page="about"] + [role="main"] .post-header > .post-title {
-  font-family: "Caveat", "Segoe Print", cursive;
-  font-size: clamp(2.75rem, 5vw, 3.5rem);
-  font-weight: 400;
-  line-height: 1.15;
-}
-
-/* The theme adds weight utilities to the name; keep both parts regular. */
-header[data-language-page="about"] + [role="main"] .post-header > .post-title .font-weight-bold,
-.navbar-brand.title,
-.navbar-brand.title .font-weight-bold {
-  font-weight: 400 !important;
+/* Keep each address line separate while using the template's default font. */
+:root .profile .more-info p {
+  display: block;
 }
